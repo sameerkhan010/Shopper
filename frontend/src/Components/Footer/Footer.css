@@ -25,9 +25,21 @@
     gap: 50px;
     color: #252525;
     font-size: 20px;
+    
 }
+
 .footer-links li{
     cursor: pointer;
+    transition: all 0.8s ease;
+}
+.footer-links li:hover{
+    font-size: 22px;
+   background: #d24848;
+   color: #ebebeb;
+   border-radius: 50px;
+   width: 140px;
+   text-align: center;
+   border: 1px solid rgb(59, 53, 53);
 }
 .footer-social-icon{
     display: flex;
