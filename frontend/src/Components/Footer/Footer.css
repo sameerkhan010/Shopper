@@ -30,15 +30,7 @@
   cursor: pointer;
   transition: all 0.8s ease;
 }
-.footer-links li:hover {
-  font-size: 22px;
-  background: #d24848;
-  color: #ebebeb;
-  border-radius: 50px;
-  width: 140px;
-  text-align: center;
-  border: 1px solid rgb(59, 53, 53);
-}
+
 .footer-social-icon {
   display: flex;
   gap: 20px;
@@ -89,11 +81,7 @@
     font-size: 14px;
     gap: 10px;
   }
-  .footer-links li:hover {
-    font-size: 18px;
 
-    width: 100px;
-  }
   .footer-social-icon img {
     width: 22px;
   }
